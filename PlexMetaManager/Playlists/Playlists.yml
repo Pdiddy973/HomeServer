@@ -1,0 +1,62 @@
+playlists:
+  Marvel Cinematic Universe:
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, TV Shows
+    trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe?sort=rank,asc
+    summary: Marvel Cinematic Universe In Order
+    url_poster: https://theposterdb.com/api/assets/6897
+  X-Men Movies Chronological Order:
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, TV Shows
+    trakt_list: https://trakt.tv/users/donxy/lists/x-men-universe?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/18
+  Star Wars Movies Chronological Order:
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, TV Shows
+    trakt_list: https://trakt.tv/users/movistapp/lists/star-wars?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/26786
+  Star Wars - The Clone Wars Chronological Order:
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, TV Shows
+    trakt_list: https://trakt.tv/users/tomfin46/lists/star-wars-the-clone-wars-chronological-episode-order?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/133734
+  James Bond Movies Chronological Order:
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, TV Shows
+    trakt_list: https://trakt.tv/users/any/lists/james-bond?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/2037
+  Fast & Furious Movies Chronological Order:
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, TV Shows
+    trakt_list: https://trakt.tv/users/vargajoe/lists/fast-and-furious-chronology?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/166111
+  Harry Potter Movies Chronological Order:
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, TV Shows
+    trakt_list: https://trakt.tv/users/goldveia/lists/harry-potter?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/27577
+  Lord of the Rings Movies Chronological Order:
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, TV Shows
+    trakt_list: https://trakt.tv/users/spite84/lists/lord-of-the-rings?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/33509
+  Jurassic Park Movies Chronological Order:
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, TV Shows
+    trakt_list: https://trakt.tv/users/iamgabriel/lists/jurassic?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/2984
+  Veronica Mars Chronological Order:
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, TV Shows
+    trakt_list: https://trakt.tv/users/vargajoe/lists/veronica-mars-chronology?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/172794

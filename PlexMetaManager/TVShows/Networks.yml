@@ -1,0 +1,38 @@
+templates:
+  network:
+    sort_title: +18_<<collection_name>>
+    collection_mode: hide
+    smart_filter:
+      sort_by: release.desc
+      validate: false
+      any:
+        network: <<network>>
+
+collections:
+  A&E:
+    template: { name: network, network: "A&E" }
+    url_poster: https://theposterdb.com/api/assets/167076
+  ABC:
+    template: { name: network, network: "ABC, ABC (AU), ABC (US), ABC Comedy, ABC Family, ABC Me, ABC Spark, ABC.com, ABC1, ABC3" }
+    url_poster: https://theposterdb.com/api/assets/166221
+  Amazon Studios:
+    template: { name: network, network: "Amazon Studios" }
+    url_poster: https://theposterdb.com/api/assets/137468
+  AppleTV+:
+    template: { name: network, network: "Apple Music, Apple TV+" }
+    url_poster: https://theposterdb.com/api/assets/163303
+  CBS:
+    template: { name: network, network: "CBS, CBS All Access, CBS Reality, CBS Reality (UK), CBS.com" }
+    url_poster: https://theposterdb.com/api/assets/166376
+  Discovery:
+    template: { name: network, network: "Discovery, Discovery Channel, Discovery Channel (AU), Discovery Channel (CA), Discovery Channel (UK), Discovery Health Channel, Discovery Kids, Discovery Life, Discovery Real Time, Discovery Turbo, Discovery Turbo UK, Discovery+" }
+    url_poster: https://theposterdb.com/api/assets/203777
+  Disney+:
+    template: { name: network, network: "Disney Channel, Disney Channel (UK), Disney Junior, Disney XD, Disney+, Disney+ Hostar" }
+    url_poster: https://theposterdb.com/api/assets/163294
+  HBO:
+    template: { name: network, network: "HBO, HBO Canada, HBO Europe, HBO Max"}
+    url_poster: https://theposterdb.com/api/assets/203785
+  Netflix:
+    template: { name: network, network: "Netflix" }
+    url_poster: https://theposterdb.com/api/assets/163448

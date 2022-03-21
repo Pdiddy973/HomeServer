@@ -1,0 +1,12 @@
+templates:
+  Chart:
+    sort_title: +1_<<num>><<collection_name>>
+    sync_mode: sync
+    summary: Movies That Have Won Oscars
+    url_poster: https://theposterdb.com/api/assets/<<poster>>
+    smart_label: audience_rating.desc
+
+collections:
+  Oscars:
+    template: { name: Chart,  poster: 192593, num: 3}
+    imdb_list: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner

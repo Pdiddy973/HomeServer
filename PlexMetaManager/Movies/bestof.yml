@@ -1,0 +1,32 @@
+
+templates:
+  Best of:
+    trakt_list: https://trakt.tv/users/pdiddy973/lists/rotten-tomatoes-best-of-<<year>>?sort=rank,asc
+    sort_title: +1_Best of <<year>>
+    sync_mode: sync
+    summary: Rotten Tomatoes Best Movies of <<year>> , http://www.rottentomatoes.com/top/bestofrt/?year=<<year>>
+    url_poster: https://theposterdb.com/api/assets/<<poster>>
+    smart_label: audience_rating.desc
+    radarr_add_missing: true
+
+collections:
+  Best of 2013:
+    template: { name: Best of, year: 2013, poster: 199943 }
+  Best of 2014:
+    template: { name: Best of, year: 2014, poster: 199944 }
+  Best of 2015:
+    template: { name: Best of, year: 2015, poster: 199945 }
+  Best of 2016:
+    template: { name: Best of, year: 2016, poster: 199946 }
+  Best of 2017:
+    template: { name: Best of, year: 2017, poster: 136351 }
+  Best of 2018:
+    template: { name: Best of, year: 2018, poster: 136350 }
+  Best of 2019:
+    template: { name: Best of, year: 2019, poster: 136349 }
+  Best of 2020:
+    template: { name: Best of, year: 2020, poster: 136348 }
+  Best of 2021:
+    template: { name: Best of, year: 2021, poster: 136347 }
+  Best of 2022:
+    template: { name: Best of, year: 2022, poster: 199947 }
