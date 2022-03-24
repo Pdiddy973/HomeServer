@@ -2,8 +2,8 @@ templates:
   Genre:
     plex_search:
     genre: <<genre>>
-    url_poster: https://theposterdb.com/api/assets/<<poster>>
     sort_title: +3_<<collection_name>>
+    url_poster: https://theposterdb.com/api/assets/<<poster>>
     collection_order: alpha
 
 collections:
