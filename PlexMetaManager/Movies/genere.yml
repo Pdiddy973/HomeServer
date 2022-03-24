@@ -20,7 +20,7 @@ collections:
     template: {name: Genre, genre: Anime, poster: 213614}
     summary: A collection of Anime movies
   Biography:
-    template: {name: Genre, genre: Biography, poster: 60369}
+    template: {name: Genre, genre: Biography, poster: 213332}
     summary: A collection of Biography movies
   Comedy:
     template: {name: Genre, genre: Comedy, poster: 213139}
