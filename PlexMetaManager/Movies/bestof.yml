@@ -11,22 +11,22 @@ templates:
 
 collections:
   Best of 2013:
-    template: { name: Best of, year: 2013, poster: 199943 }
+    template: { name: Best of, year: 2013, poster: 199943 , num: 6}
   Best of 2014:
-    template: { name: Best of, year: 2014, poster: 199944 }
+    template: { name: Best of, year: 2014, poster: 199944 , num: 7}
   Best of 2015:
-    template: { name: Best of, year: 2015, poster: 199945 }
+    template: { name: Best of, year: 2015, poster: 199945 , num: 8}
   Best of 2016:
-    template: { name: Best of, year: 2016, poster: 199946 }
+    template: { name: Best of, year: 2016, poster: 199946 , num: 9}
   Best of 2017:
-    template: { name: Best of, year: 2017, poster: 136351 }
+    template: { name: Best of, year: 2017, poster: 136351 , num: 10}
   Best of 2018:
-    template: { name: Best of, year: 2018, poster: 136350 }
+    template: { name: Best of, year: 2018, poster: 136350 , num: 11}
   Best of 2019:
-    template: { name: Best of, year: 2019, poster: 136349 }
+    template: { name: Best of, year: 2019, poster: 136349 , num: 12}
   Best of 2020:
-    template: { name: Best of, year: 2020, poster: 136348 }
+    template: { name: Best of, year: 2020, poster: 136348 , num: 13}
   Best of 2021:
-    template: { name: Best of, year: 2021, poster: 136347 }
+    template: { name: Best of, year: 2021, poster: 136347 , num: 14}
   Best of 2022:
-    template: { name: Best of, year: 2022, poster: 199947 }
+    template: { name: Best of, year: 2022, poster: 199947 , num: 15}
