@@ -36,5 +36,5 @@ collections:
     tmdb_top_rated: 250
     summary: Top Rated Movies across the internet
   Oscars:
-    template: { name: Chart,  poster: https://theposterdb.com/api/assets/13569, num: 5}
+    template: { name: Chart,  poster: https://theposterdb.com/api/assets/213569, num: 5}
     imdb_list: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner
