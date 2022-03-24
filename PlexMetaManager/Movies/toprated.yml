@@ -30,11 +30,10 @@ collections:
       url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short
       limit: 40
     summary: Popular Movies across the internet
-  Top Rated:
-    template: { name: Chart, poster: https://i.imgur.com/Nydxp4j.png, num: 4 }
-    imdb_list: https://www.imdb.com/search/title/?groups=top_250&count=250/
-    tmdb_top_rated: 250
-    summary: Top Rated Movies across the internet
+  IMDB Top 250:
+    template: { name: chart, poster: https://theposterdb.com/api/assets/213613, num: 4 }
+    imdb_list: https://www.imdb.com/search/title/?groups=top_250&sort=user_rating,desc
+    summary: Movies that are in IMDB's Top 250 Movies of all time list
   Oscars:
     template: { name: Chart,  poster: https://theposterdb.com/api/assets/213569, num: 5}
     imdb_list: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner
