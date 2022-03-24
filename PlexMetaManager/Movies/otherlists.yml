@@ -1,24 +1,2 @@
 collections:
-  Outer Space Movie Collection:
-    trakt_list: https://trakt.tv/users/hdlists/lists/outer-space-space-exploration-movies
-    sync_mode: sync
-    smart_label: critic_rating.desc
-    sort_title: ++++++++++++++++++_Outer Space Movie Collection
-    summary: Movies That Take Place in Outer Space
-    url_poster: https://i.imgur.com/tOujJnS.jpg
-    url_background: https://i.imgur.com/CUIrEWQ.jpg
-  Paranormal Movie Collection:
-    trakt_list: https://trakt.tv/users/codedone/lists/paranormal
-    sync_mode: sync
-    smart_label: critic_rating.desc
-    sort_title: ++++++++++++++++++_Paranormal Movie Collection
-    summary: Paranormal grene of movies from varrious trakt members.
-    url_poster: https://imgur.com/IzwpRht
-  Parody Movie Collection:
-    trakt_list: https://trakt.tv/users/hdlists/lists/top-50-parody-movies-of-all-time
-    sync_mode: sync
-    smart_label: critic_rating.desc
-    sort_title: ++++++++++++++++++_Parody Movie Collection
-    summary: Top 50 Parody Movies of All Time
-    url_poster: https://i.imgur.com/yFtJ5eV.png
-    url_background: https://i.imgur.com/eELv4eB.jpg
+
