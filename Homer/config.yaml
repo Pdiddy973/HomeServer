@@ -1,4 +1,3 @@
----
 # Homepage configuration
 # See https://fontawesome.com/icons for icons options
 
@@ -40,20 +39,13 @@ colors:
     link: "#3273dc"
     link-hover: "#ffdd57"
 
-# Optional message
-message:
-  #url: https://b4bz.io
-  style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
-  title: "Demo !"
-  icon: "fa fa-grin"
-  content: "This is a dummy homepage demo. <br /> Find more information on <a href='https://github.com/bastienwirtz/homer'>github.com/bastienwirtz/homer</a>"
 
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
 links:
-  - name: "Contribute"
+  - name: "Github"
     icon: "fab fa-github"
-    url: "https://github.com/bastienwirtz/homer"
+    url: "https://github.com/Pdiddy973/HomeServer"
     target: "_blank" # optional html a tag target attribute
   - name: "Wiki"
     icon: "fas fa-book"
@@ -72,13 +64,13 @@ services:
     icon: "fas fa-cloud"
     items:
       - name: "Radarr"
-        logo: "assets/tools/sample.png"
+        logo: "https://github.com/Sonarr/Sonarr/blob/develop/Logo/32.png"
         subtitle: "Bookmark example"
         tag: "app"
         url: "https://radarr.remoteproxy.tech"
         target: "Sonarr" # optional html a tag target attribute
       - name: "Sonarr"
-        logo: "assets/tools/sample2.png"
+        logo: "https://github.com/Radarr/Radarr/blob/develop/Logo/32.png"
         subtitle: "Another application"
         tag: "app"
         url: "https://sonarr.remoteproxy.tech"
