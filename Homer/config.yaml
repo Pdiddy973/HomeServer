@@ -64,13 +64,13 @@ services:
     icon: "fas fa-cloud"
     items:
       - name: "Radarr"
-        logo: "assets/icons/radarr"
+        logo: "assets/icons/radarr.png"
         subtitle: "Bookmark example"
         tag: "app"
         url: "https://radarr.remoteproxy.tech"
         target: "Sonarr" # optional html a tag target attribute
       - name: "Sonarr"
-        logo: "https://github.com/Sonarr/Sonarr/blob/develop/Logo/32.png"
+        logo: "assets/icons/sonarr.png"
         subtitle: "Another application"
         tag: "app"
         url: "https://sonarr.remoteproxy.tech"
