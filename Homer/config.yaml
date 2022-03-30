@@ -77,7 +77,7 @@ services:
         tag: "app"
         url: "https://radarr.remoteproxy.tech"
         target: "Sonarr" # optional html a tag target attribute
-      - name: "Another one"
+      - name: "Sonarr"
         logo: "assets/tools/sample2.png"
         subtitle: "Another application"
         tag: "app"
