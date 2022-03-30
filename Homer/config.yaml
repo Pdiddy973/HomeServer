@@ -68,17 +68,17 @@ links:
 # First level array represent a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
-  - name: "Applications"
+  - name: "Media Managment"
     icon: "fas fa-cloud"
     items:
-      - name: "Awesome app"
+      - name: "Radarr"
         logo: "assets/tools/sample.png"
         subtitle: "Bookmark example"
         tag: "app"
-        url: "https://www.reddit.com/r/selfhosted/"
-        target: "_blank" # optional html a tag target attribute
+        url: "https://radarr.remoteproxy.tech"
+        target: "Sonarr" # optional html a tag target attribute
       - name: "Another one"
         logo: "assets/tools/sample2.png"
         subtitle: "Another application"
         tag: "app"
-        url: "#"
+        url: "https://sonarr.remoteproxy.tech"
