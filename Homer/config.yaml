@@ -70,7 +70,7 @@ services:
         url: "https://radarr.remoteproxy.tech"
         target: "Sonarr" # optional html a tag target attribute
       - name: "Sonarr"
-        logo_url: "https://github.com/Sonarr/Sonarr/blob/develop/Logo/32.png"
+        logo: "https://github.com/Sonarr/Sonarr/blob/develop/Logo/32.png"
         subtitle: "Another application"
         tag: "app"
         url: "https://sonarr.remoteproxy.tech"
