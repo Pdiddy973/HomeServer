@@ -1,10 +1,4 @@
 playlists:
-  Lord of the Rings:
-    sync_to_users: all
-    sync_mode: sync
-    libraries: Movies
-    trakt_list: https://trakt.tv/users/spite84/lists/lord-of-the-rings?sort=rank,asc
-    summary: Lord of the Rings In Order
   Marvel Cinematic Universe:
     sync_to_users: all
     sync_mode: sync
