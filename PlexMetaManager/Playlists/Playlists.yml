@@ -60,3 +60,10 @@ playlists:
     libraries: Movies, TV Shows
     trakt_list: https://trakt.tv/users/vargajoe/lists/veronica-mars-chronology?sort=rank,asc
     url_poster: https://theposterdb.com/api/assets/172794
+  Star Trek Production Order:
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, TV Shows
+    trakt_list: https://trakt.tv/users/dgw/lists/star-trek-canon?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/54157
+
