@@ -1,1 +1,0 @@
-- [Amazon](https://smile.amazon.com/)
