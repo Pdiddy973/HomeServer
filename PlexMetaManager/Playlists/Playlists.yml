@@ -60,10 +60,15 @@ playlists:
     libraries: Movies, TV Shows
     trakt_list: https://trakt.tv/users/vargajoe/lists/veronica-mars-chronology?sort=rank,asc
     url_poster: https://theposterdb.com/api/assets/172794
-  Star Trek Production Order:
+  Star Trek Prime Canon Timeline:
     sync_to_users: all
     sync_mode: sync
     libraries: Movies, TV Shows
-    trakt_list: https://trakt.tv/users/dgw/lists/star-trek-canon?sort=rank,asc
+    trakt_list: https://trakt.tv/users/username57/lists/star-trek-prime-canon-timeline?page=2&sort=rank,asc
     url_poster: https://theposterdb.com/api/assets/54157
-
+  Star Trek Production order:
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, TV Shows
+    trakt_list: https://trakt.tv/users/username57/lists/star-trek-watching-order?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/54157
