@@ -1,0 +1,30 @@
+services:
+  swag:
+    image: lscr.io/linuxserver/swag:latest
+    container_name: swag
+    cap_add:
+      - NET_ADMIN
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+      - URL=${URL}
+      - VALIDATION=${VALIDATION}
+      - SUBDOMAINS=${SUBDOMAINS} #optional
+      # - CERTPROVIDER=${CERTPROVIDER} #optional
+      - DNSPLUGIN=${DNSPLUGIN} #optional
+      # - PROPAGATION=${PROPAGATION} #optional
+      # - EMAIL=${EMAIL} #optional
+      # - ONLY_SUBDOMAINS=${ONLY_SUBDOMAINS} #optional
+      # - EXTRA_DOMAINS=${EXTRA_DOMAINS} #optional
+      # - STAGING=${STAGING} #optional
+      - DOCKER_MODS=linuxserver/mods:swag-dashboard|swag-auto-reload #optional
+    volumes:
+      - ${path}/swag:/config
+    ports:
+      - 443:443
+      # - 80:80 #optional
+      - 81:81 #optional for dashboard
+    restart: unless-stopped
+    labels:
+      com.centurylinklabs.watchtower: true
