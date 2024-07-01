@@ -1,0 +1,14 @@
+version: "3.3"
+# modified from https://github.com/Haxxnet/Compose-Examples/
+services:
+    flaresolverr:
+        image: ghcr.io/flaresolverr/flaresolverr:latest
+        container_name: flaresolverr
+        ports:
+            - 8191:8191
+        environment:
+            - LOG_LEVEL=${LOG_LEVEL:-info}
+            - LOG_HTML=${LOG_HTML:-false}
+            - CAPTCHA_SOLVER=${CAPTCHA_SOLVER:-none}
+            - TZ=${TZ}
+        restart: unless-stopped
