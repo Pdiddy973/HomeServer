@@ -18,7 +18,7 @@ services:
       # - ONLY_SUBDOMAINS=${ONLY_SUBDOMAINS} #optional
       # - EXTRA_DOMAINS=${EXTRA_DOMAINS} #optional
       # - STAGING=${STAGING} #optional
-      - DOCKER_MODS=linuxserver/mods:swag-dashboard|swag-auto-reload #optional
+      # - DOCKER_MODS=linuxserver/mods:swag-dashboard|swag-auto-reload #optional
     volumes:
       - ${path}/swag:/config
     ports:
