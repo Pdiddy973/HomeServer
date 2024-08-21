@@ -46,7 +46,7 @@ playlists:
     sync_to_users: all
     sync_mode: sync
     libraries: Movies, TV Shows
-    trakt_list: https://trakt.tv/users/spite84/lists/lord-of-the-rings?sort=rank,asc
+    trakt_list: https://trakt.tv/users/hoovdizzel/lists/the-hobbit-lord-of-the-rings-chronological-order?sort=rank,asc
     url_poster: https://theposterdb.com/api/assets/33509
   Jurassic Park Movies Chronological Order:
     sync_to_users: all
@@ -54,12 +54,6 @@ playlists:
     libraries: Movies, TV Shows
     trakt_list: https://trakt.tv/users/iamgabriel/lists/jurassic?sort=rank,asc
     url_poster: https://theposterdb.com/api/assets/2984
-  Veronica Mars Chronological Order:
-    sync_to_users: all
-    sync_mode: sync
-    libraries: Movies, TV Shows
-    trakt_list: https://trakt.tv/users/vargajoe/lists/veronica-mars-chronology?sort=rank,asc
-    url_poster: https://theposterdb.com/api/assets/172794
   Star Trek Prime Canon Timeline:
     sync_to_users: all
     sync_mode: sync

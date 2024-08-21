@@ -1,0 +1,9 @@
+services:
+  kometa:
+    image: kometateam/kometa:develop
+    container_name: kometa
+    environment:
+      - TZ=TIMEZONE #optional
+    volumes:
+      - /path/to/config:/config
+    restart: unless-stopped
